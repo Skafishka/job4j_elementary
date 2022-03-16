@@ -23,6 +23,7 @@ public class ConverterTest {
         Assert.assertEquals(expected, out, eps);
     }
 
+
     @Test
     public void whenConvert200RblThen3dot3333Dlr() {
         float in = 200;
