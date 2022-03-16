@@ -7,10 +7,6 @@ public class MathCalculator {
         return sum(first, second) + multiply(first, second);
     }
 
-    public static void main(String[] args) {
-        System.out.println("Результат расчёта равен: " + sumAndMultiply(10, 20));
-    }
-
     public static double differenceAndDivision(double first, double second) {
         return difference(first, second) + division(first, second);
     }
@@ -19,4 +15,9 @@ public class MathCalculator {
         return sum(first, second) + multiply(first, second) + difference(first, second) + division(first, second);
     }
 
+    public static void main(String[] args) {
+        System.out.println("Результат расчёта равен: " + sumAndMultiply(10, 20));
+        System.out.println("Результат расчёта равен: " + differenceAndDivision(15, 20));
+        System.out.println("Результат расчёта равен: " + sumTotal(20, 30));
+    }
 }
