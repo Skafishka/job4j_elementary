@@ -21,5 +21,4 @@ public class MathCalculator {
         System.out.println("Результат расчёта равен: " + differenceAndDivision(20, 30));
         System.out.println("Результат расчёта равен: " + sumTotal(30, 40));
     }
-
 }
