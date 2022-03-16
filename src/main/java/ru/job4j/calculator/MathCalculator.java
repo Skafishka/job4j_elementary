@@ -15,4 +15,5 @@ public class MathCalculator {
     public static double sumTotal(double first, double second) {
         return sum(first, second) + multiply(first, second) + difference(first, second) + division(first, second);
     }
+
 }
