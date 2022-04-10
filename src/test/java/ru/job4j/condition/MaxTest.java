@@ -5,13 +5,13 @@ import org.junit.Test;
 
 public class MaxTest {
     @Test
-    public void whenMax1To7Then7() {
+    public void whenMax1To9Then9() {
         int left1 = 3;
         int right1 = 1;
         int left = 4;
-        int right = 7;
+        int right = 9;
         int result = Max.max(left1, right1, left, right);
-        int expected = 7;
+        int expected = 9;
         Assert.assertEquals(result, expected);
     }
 
