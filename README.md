@@ -1,11 +1,11 @@
-# Job4j. Блок базовый синтаксис.
+# Job4j. Block basic syntax.
 
-Проект содержит решения блока "Базовый синтаксис" курса Job4j.
-В этом проекте рассмотрены: 
-- переменные
-- операторы ветвления
-- циклы
-- массивы
-- модульное тестирование
+The project contains the solutions of the "Basic Syntax" block of the Job4j course.
+This project considered:
+- variables
+- branch operators
+- cycles
+- arrays
+- unit testing
 - IDEA
-- Основы GIT
+- GIT basics
